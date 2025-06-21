@@ -9,7 +9,7 @@ app.use(cors());
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: 'https://send-clone-e7m9o8wi8-jay-gundaraniyas-projects.vercel.app',
+    origin: 'https://send-clone.vercel.app',
     methods: ['GET', 'POST']
   }
 });
